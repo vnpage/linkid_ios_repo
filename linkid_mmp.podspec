@@ -37,10 +37,11 @@ LICENSE
   s.source                = { :http => 'https://github.com/vnpage/linkid_mmp_ios/raw/main/linkid_mmp.zip' }
   s.documentation_url     = 'https://flutter.dev/docs'
   s.platform              = :ios, '9.0'
+  s.vendored_frameworks   = 'linkid_mmp.xcframework'
 
-  s.subspec 'linkid_mmp_sdk' do |as|
-    as.platform              = :ios, '9.0'
-    as.vendored_frameworks   = 'linkid_mmp.xcframework'
-  end
+  # s.subspec 'linkid_mmp_sdk' do |as|
+  #   as.platform              = :ios, '9.0'
+  #   as.vendored_frameworks   = 'linkid_mmp.xcframework'
+  # end
 
 end
