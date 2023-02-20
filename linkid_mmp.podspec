@@ -38,10 +38,13 @@ LICENSE
   s.documentation_url     = 'https://flutter.dev/docs'
   s.platform              = :ios, '9.0'
   s.vendored_frameworks   = 'linkid_mmp.xcframework'
+  s.source_files = 'linkid_mmp/Classes/**/*'
 
   # s.subspec 'linkid_mmp_sdk' do |as|
   #   as.platform              = :ios, '9.0'
   #   as.vendored_frameworks   = 'linkid_mmp.xcframework'
   # end
-
+  s.dependency 'SQLite.swift', '~> 0.14.0'
+  s.dependency 'KeychainSwift', '~> 20.0'
+  s.dependency 'CryptoSwift', '~> 1.5.1'
 end
