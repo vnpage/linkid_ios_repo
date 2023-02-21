@@ -75,6 +75,50 @@
         "children": [
           {
             "kind": "Function",
+            "name": "test",
+            "printedName": "test()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10linkid_mmp9LinkIdMMPC4testyyFZ",
+            "mangledName": "$s10linkid_mmp9LinkIdMMPC4testyyFZ",
+            "moduleName": "linkid_mmp",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "test2",
+            "printedName": "test2()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10linkid_mmp9LinkIdMMPC5test2yyF",
+            "mangledName": "$s10linkid_mmp9LinkIdMMPC5test2yyF",
+            "moduleName": "linkid_mmp",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "event",
             "printedName": "event(name:data:)",
             "children": [
