@@ -10,8 +10,8 @@ import Swift
 import _Concurrency
 import _StringProcessing
 @_exported import linkid_mmp
-@_hasMissingDesignatedInitializers public class LinkIdMMP {
-  public static func event(name: Swift.String, data: [Swift.String : Any]?)
-  public static func intSDK(partnerCode: Swift.String)
+@_hasMissingDesignatedInitializers @objcMembers public class LinkIdMMP {
+  @objc public static func event(name: Swift.String, data: [Swift.String : Any]?)
+  @objc public static func intSDK(partnerCode: Swift.String)
   @objc deinit
 }

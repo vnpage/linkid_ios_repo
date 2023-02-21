@@ -122,9 +122,11 @@
             "mangledName": "$s10linkid_mmp9LinkIdMMPC5event4name4dataySS_SDySSypGSgtFZ",
             "moduleName": "linkid_mmp",
             "static": true,
+            "objc_name": "eventWithName:data:",
             "declAttributes": [
               "Final",
-              "AccessControl"
+              "AccessControl",
+              "ObjC"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -150,9 +152,11 @@
             "mangledName": "$s10linkid_mmp9LinkIdMMPC6intSDK11partnerCodeySS_tFZ",
             "moduleName": "linkid_mmp",
             "static": true,
+            "objc_name": "intSDKWithPartnerCode:",
             "declAttributes": [
               "Final",
-              "AccessControl"
+              "AccessControl",
+              "ObjC"
             ],
             "funcSelfKind": "NonMutating"
           }
@@ -162,7 +166,8 @@
         "mangledName": "$s10linkid_mmp9LinkIdMMPC",
         "moduleName": "linkid_mmp",
         "declAttributes": [
-          "AccessControl"
+          "AccessControl",
+          "ObjCMembers"
         ],
         "hasMissingDesignatedInitializers": true
       },
