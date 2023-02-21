@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name                  = 'linkid_mmp'
-  s.version               = '1.0.0' # 2.10.4
+  s.version               = '1.0.2' # 2.10.4
   s.summary               = 'A UI toolkit for beautiful and fast apps.'
   s.description           = <<-DESC
 Flutter is Google's UI toolkit for building beautiful, fast apps for mobile, web, desktop, and embedded devices from a single codebase.
@@ -36,7 +36,7 @@ LICENSE
   s.author                = { 'Tuan Dinh' => 'leonacky@gmail.com' }
   s.source                = { :http => 'https://github.com/vnpage/linkid_mmp_ios/raw/main/linkid_mmp.zip' }
   s.documentation_url     = 'https://flutter.dev/docs'
-  s.platform              = :ios, '9.0'
+  s.platform              = :ios, '10.0'
   s.vendored_frameworks   = 'linkid_mmp.xcframework'
   s.source_files = 'linkid_mmp/Classes/**/*'
 
