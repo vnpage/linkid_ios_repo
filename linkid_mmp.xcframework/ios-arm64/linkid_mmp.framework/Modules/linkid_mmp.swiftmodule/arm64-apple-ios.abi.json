@@ -131,7 +131,7 @@
           {
             "kind": "Function",
             "name": "intSDK",
-            "printedName": "intSDK(partnerCode:appId:)",
+            "printedName": "intSDK(partnerCode:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -143,17 +143,11 @@
                 "name": "String",
                 "printedName": "Swift.String",
                 "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
               }
             ],
             "declKind": "Func",
-            "usr": "s:10linkid_mmp9LinkIdMMPC6intSDK11partnerCode03appD0ySS_SStFZ",
-            "mangledName": "$s10linkid_mmp9LinkIdMMPC6intSDK11partnerCode03appD0ySS_SStFZ",
+            "usr": "s:10linkid_mmp9LinkIdMMPC6intSDK11partnerCodeySS_tFZ",
+            "mangledName": "$s10linkid_mmp9LinkIdMMPC6intSDK11partnerCodeySS_tFZ",
             "moduleName": "linkid_mmp",
             "static": true,
             "declAttributes": [
