@@ -36,10 +36,10 @@ LICENSE
   s.author                = { 'Airflex' => 'tuandv@airflex.io' }
   s.source                = { :http => 'https://github.com/vnpage/linkid_mmp_ios/raw/main/linkid_mmp.zip' }
   s.documentation_url     = 'https://flutter.dev/docs'
-  s.platform              = :ios, '11.0'
+  s.platform              = :ios, '10.0'
 
   s.subspec 'linkid_mmp' do |as|
-    as.platform              = :ios, '11.0'
+    as.platform              = :ios, '10.0'
     as.vendored_frameworks   = 'linkid_mmp.xcframework'
   end
 
