@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name                  = 'ewallet_sdk'
+  s.name                  = 'linkid_mmp_sdk'
   s.version               = '1.0.12' # 2.10.4
   s.summary               = 'A UI toolkit for beautiful and fast apps.'
   s.description           = <<-DESC
