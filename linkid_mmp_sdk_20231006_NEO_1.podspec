@@ -57,8 +57,8 @@ LICENSE
     as.vendored_frameworks   = 'GRDB.xcframework'
   end
 
-  s.dependency 'CryptoSwift', '~> 1.3.3'
-  s.dependency 'GRDB.swift', '~> 4.14.0'
+  # s.dependency 'CryptoSwift', '~> 1.3.3'
+  # s.dependency 'GRDB.swift', '~> 4.14.0'
 
   s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES', 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'i386', 'BUILD_LIBRARY_FOR_DISTRIBUTION' => 'YES'}
 
