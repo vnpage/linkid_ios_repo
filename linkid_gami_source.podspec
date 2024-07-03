@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name                  = 'linkid_gami_sdk'
+  s.name                  = 'linkid_gami'
   s.version               = '1.0.1'
   s.summary               = 'A UI toolkit for beautiful and fast apps.'
   s.description           = <<-DESC
