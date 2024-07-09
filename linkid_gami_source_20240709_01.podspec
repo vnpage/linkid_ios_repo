@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name                  = 'linkid_gami_sdk'
-  s.version               = '1.0.1'
+  s.version               = '1.0.2'
   s.summary               = 'A UI toolkit for beautiful and fast apps.'
   s.description           = <<-DESC
 Flutter is Google's UI toolkit for building beautiful, fast apps for mobile, web, desktop, and embedded devices from a single codebase.
@@ -34,7 +34,7 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 LICENSE
   }
   s.author                = { 'Airflex' => 'tuandv@airflex.io' }
-  s.source                = { :http => 'https://github.com/vnpage/linkid_ios_repo/raw/main/linkid_gami_source_20240709_01.zip' }
+  s.source                = { :http => 'https://github.com/vnpage/linkid_ios_repo/raw/main/linkid_gami_source_20240709_02.zip' }
   s.documentation_url     = 'https://flutter.dev/docs'
   s.platform              = :ios, '10.0'
 
