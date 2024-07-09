@@ -40,6 +40,11 @@ LICENSE
 
   s.source_files = 'linkid_gami_sdk/Classes/**/*'
 
+  s.subspec 'linkid_mmp_internal' do |as|
+    as.platform              = :ios, '10.0'
+    as.vendored_frameworks   = 'linkid_mmp_internal.xcframework'
+  end
+
   s.subspec 'LinkIdDigitalFootprintInternal' do |as|
     as.platform              = :ios, '10.0'
     as.vendored_frameworks   = 'LinkIdDigitalFootprintInternal.xcframework'
@@ -47,7 +52,7 @@ LICENSE
 
   s.subspec 'UnityFramework' do |as|
     as.platform              = :ios, '10.0'
-    as.vendored_frameworks   = 'UnityFramework.framework'
+    as.vendored_frameworks   = 'UnityFramework.xcframework'
   end
 
   s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES', 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'i386', 'BUILD_LIBRARY_FOR_DISTRIBUTION' => 'YES'}
