@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name                  = 'linkid_gami'
+  s.name                  = 'linkid_gami_sdk'
   s.version               = '1.0.1'
   s.summary               = 'A UI toolkit for beautiful and fast apps.'
   s.description           = <<-DESC
@@ -34,23 +34,20 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 LICENSE
   }
   s.author                = { 'Airflex' => 'tuandv@airflex.io' }
-  s.source                = { :http => 'https://github.com/vnpage/linkid_mmp_ios/raw/main/linkid_gami_source.zip' }
+  s.source                = { :http => 'http://172.20.10.4:3000/linkid_gami_source.zip' }
   s.documentation_url     = 'https://flutter.dev/docs'
   s.platform              = :ios, '10.0'
 
-  s.subspec 'linkid_gami_sdk' do |as|
-    as.platform              = :ios, '10.0'
-    as.vendored_frameworks   = 'linkid_gami_sdk.xcframework'
-  end
+  s.source_files = 'linkid_gami_sdk/Classes/**/*'
 
   s.subspec 'LinkIdDigitalFootprintInternal' do |as|
     as.platform              = :ios, '10.0'
     as.vendored_frameworks   = 'LinkIdDigitalFootprintInternal.xcframework'
   end
 
-  s.subspec 'GRDB' do |as|
+  s.subspec 'UnityFramework' do |as|
     as.platform              = :ios, '10.0'
-    as.vendored_frameworks   = 'UnityFramework.xcframework'
+    as.vendored_frameworks   = 'UnityFramework.framework'
   end
 
   s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES', 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'i386', 'BUILD_LIBRARY_FOR_DISTRIBUTION' => 'YES'}
